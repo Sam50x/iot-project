@@ -11,6 +11,8 @@
     "bridge": "node bridge/index.js"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.56.0",
     "clsx": "^2.1.1",
     "next": "15.5.2",

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import SignOutButton from "./components/SignOutButton"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <section className="h-full pt-24 overflow-auto bg-black-main">
           {children}
         </section>
+        <SignOutButton />
       </body>
     </html>
   );
