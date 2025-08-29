@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen`}
       >
         <Navbar />
-        <section className="h-full pt-24 overflow-auto">
+        <section className="h-full pt-24 overflow-auto bg-black-main">
           {children}
         </section>
       </body>
